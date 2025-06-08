@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Musafir Nizam | World's Smallest Traveller</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #f4f4f4; color: #333; }
+    header, footer { background: #222; color: white; padding: 1rem; text-align: center; }
+    .avatar-section { display: flex; justify-content: center; align-items: center; height: 300px; background: #ffe4b5; position: relative; }
+    .avatar { width: 150px; animation: wave 2s infinite; }
+    @keyframes wave { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+    .section { padding: 2rem; text-align: center; }
+    .video-grid { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
+    .video-grid img { width: 200px; border-radius: 10px; cursor: pointer; transition: transform 0.3s ease; }
+    .video-grid img:hover { transform: scale(1.05); }
+    form input, form textarea { display: block; width: 100%; margin: 10px 0; padding: 8px; }
+    form { max-width: 400px; margin: 0 auto; }
+    button { padding: 10px 20px; background-color: #222; color: white; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Musafir Nizam</h1>
+    <p>World's Smallest Traveller & Hitchhiker | Height: 3.10 ft (116 cm)</p>
+  </header>
+
+  <section class="avatar-section">
+    <img src="avatar.png" alt="Animated Avatar" class="avatar" />
+  </section>
+
+  <section class="section">
+    <h2>📹 YouTube Vlogs</h2>
+    <div class="video-grid">
+      <img src="yt-thumb1.jpg" onclick="window.open('https://youtube.com/@MusafirNizam')" />
+      <img src="yt-thumb2.jpg" onclick="window.open('https://youtube.com/@MusafirNizam')" />
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>📸 Instagram Reels</h2>
+    <div class="video-grid">
+      <img src="insta-thumb1.jpg" onclick="window.open('https://instagram.com/musafir_nizam')" />
+      <img src="insta-thumb2.jpg" onclick="window.open('https://instagram.com/musafir_nizam')" />
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>📝 Contact Me</h2>
+    <form action="mailto:musafir@example.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="text" name="phone" placeholder="Your Phone" />
+      <input type="text" name="instagram" placeholder="Instagram Handle" />
+      <textarea name="message" placeholder="Your Message" rows="4"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Follow me on:
+      <a href="https://instagram.com/musafir_nizam" target="_blank">Instagram</a> |
+      <a href="https://twitter.com/musafir_nizam_" target="_blank">Twitter X</a> |
+      <a href="https://facebook.com/musaafir.nizam" target="_blank">Facebook</a> |
+      <a href="https://linkedin.com/in/musafirnizam" target="_blank">LinkedIn</a> |
+      <a href="https://youtube.com/@MusafirNizam" target="_blank">YouTube</a>
+    </p>
+  </footer>
+</body>
+</html>
